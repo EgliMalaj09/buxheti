@@ -30,8 +30,6 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     useEffect(() => {
         const getUserLanguage = async () => {
             const userLanguage = await StorageService.getItem(USER_LANGUAGE);
-            console.log('userLanguage',userLanguage);
-
             if (userLanguage) {
                 setCurrentLanguage(userLanguage);
                 i18next.changeLanguage(userLanguage);

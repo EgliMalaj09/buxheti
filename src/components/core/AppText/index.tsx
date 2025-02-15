@@ -14,8 +14,6 @@ declare const AppTextType: React.ExoticComponent<AppTextProps> | React.FC<AppTex
 
 const BaseText: typeof AppTextType = React.memo(({ style: styleInProp, children, ...rest }) => {
   const styles = useThemedStyle(createStyles, rest);
-  console.log('styles?.text', styles?.text);
-
   return (
     <Text
       style={[styles.text, styleInProp]}
