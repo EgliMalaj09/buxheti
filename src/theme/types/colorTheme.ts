@@ -1,0 +1,29 @@
+export interface ColorTheme {
+    transparent: string;
+    background: string;
+    white: string;
+    black: string;
+    textDefault: string;
+    placeholder: string;
+    borderColor: string;
+    red: string;
+    error: string;
+    success: string;
+    primary: string;
+    primaryDarkBlue: string;
+    softGray: string;
+    primaryGray: string;
+    secondaryGray: string;
+    secondaryRed: string;
+    secondaryPurple: string;
+    lightPurple: string;
+    secondaryPink: string;
+    secondaryDarkPink: string;
+    secondaryLightPink: string;
+    secondaryGreen: string;
+    secondaryLightGreen: string;
+    ghostGray: string;
+    ghostRed: string;
+    infoMessage: string;
+    purpleShadow: string;
+  }

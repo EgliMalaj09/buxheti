@@ -1,0 +1,38 @@
+export type SpacingValue = number | string;
+export interface SpacingTheme {
+  0: SpacingValue;
+  px: SpacingValue;
+  0.5: SpacingValue;
+  1: SpacingValue;
+  1.5: SpacingValue;
+  2: SpacingValue;
+  2.5: SpacingValue;
+  3: SpacingValue;
+  3.5: SpacingValue;
+  4: SpacingValue;
+  4.5: SpacingValue;
+  5: SpacingValue;
+  5.5: SpacingValue;
+  6: SpacingValue;
+  6.5: SpacingValue;
+  7: SpacingValue;
+  7.5: SpacingValue;
+  8: SpacingValue;
+  9: SpacingValue;
+  10: SpacingValue;
+  11: SpacingValue;
+  12: SpacingValue;
+  13: SpacingValue;
+  14: SpacingValue;
+  15: SpacingValue;
+  16: SpacingValue;
+  18: SpacingValue;
+  20: SpacingValue;
+  22: SpacingValue;
+  24: SpacingValue;
+  26: SpacingValue;
+  28: SpacingValue;
+  40: SpacingValue;
+  48: SpacingValue;
+  64: SpacingValue;
+}

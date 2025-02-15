@@ -1,0 +1,32 @@
+import * as colors from '@/theme/colors';
+import { ColorTheme } from '@/theme/types';
+
+export const ColorThemeValue: ColorTheme = {
+    transparent: colors?.transparent,
+    black: colors?.black,
+    background: colors.white,
+    borderColor: colors?.gray?.borderInput,
+    white: colors.white,
+    textDefault: colors.black,
+    placeholder: colors.gray.placeholder,
+    error: colors.red.dark,
+    success: colors.green.default,
+    red: colors.red.default,
+    primary: colors.primary,
+    primaryDarkBlue: colors.blue.dark,
+    softGray: colors.gray.soft,
+    primaryGray: colors.gray.default,
+    secondaryGray: colors.gray.secondary,
+    secondaryRed: colors.red.default,
+    secondaryPurple: colors.purple.default,
+    lightPurple: colors.purple.light,
+    secondaryPink: colors.pink.default,
+    secondaryDarkPink: colors.pink.dark,
+    secondaryLightPink: colors.pink.light,
+    secondaryGreen: colors.green.default,
+    secondaryLightGreen: colors.green.light,
+    ghostGray: colors.gray.ghostGray,
+    ghostRed: colors.red.ghostRed,
+    infoMessage: colors.purple.infoMessage,
+    purpleShadow: colors.purple.shadow,
+};
