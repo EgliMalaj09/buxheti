@@ -1,0 +1,37 @@
+
+
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+    <title>Layer 1</title>
+    <circle stroke-width="0" id="circle-1" r="250" fill="transparent" cy="200" cx="250"/>
+    <g id="svg_1" >
+        <g>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="201" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="202" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="204" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="206" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="208" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="210" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="212" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="214" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="216" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="218" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="220" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="222" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="224" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="226" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="228" fillOpacity="0.01"/>
+            <circle cx="250" cy="220" fill="#b1b1b1"  r="230" fillOpacity="0.01"/>
+        </g>
+        <circle stroke-width="0" id="svg_3" r="200" fill="white" cy="200" cx="250" filter="url(#f1)"/>
+    <g id="svg_4">
+      <path id="svg_5" classname="ci-primary" d="m177.20001,127.20001l44.8,0l0,-11.2l-56,0l0,56l11.2,0l0,-44.8z" fill="currentColor"></path>
+      <path id="svg_6" classname="ci-primary" d="m222.00002,172.00001l0,-33.6l-33.6,0l0,33.6l33.6,0zm-22.4,-22.4l11.2,0l0,11.2l-11.2,0l0,-11.2zm75.60001,-22.4l47.6,0l0,44.8l11.2,0l0,-56l-58.8,0l0,11.2z" fill="currentColor"></path>
+      <path id="svg_7" classname="ci-primary" d="m311.60002,172.00001l0,-33.6l-33.6,0l0,33.6l33.6,0zm-22.4,-22.4l11.2,0l0,11.2l-11.2,0l0,-11.2zm-67.2,123.20001l-44.8,0l0,-44.8l-11.2,0l0,56l56,0l0,-11.2z" fill="currentColor"></path>
+      <path id="svg_8" classname="ci-primary" d="m222.00002,228.00001l-33.6,0l0,33.6l33.6,0l0,-33.6zm-11.2,22.4l-11.2,0l0,-11.2l11.2,0l0,11.2zm112.00001,22.4l-47.6,0l0,11.2l58.8,0l0,-56l-11.2,0l0,44.8z" fill="currentColor"></path>
+      <path id="svg_9" classname="ci-primary" d="m255.60002,216.80001l44.8,0l0,22.4l11.2,0l0,-33.6l-56,0l0,11.2z" fill="currentColor"></path>
+      <path id="svg_10" classname="ci-primary" d="m311.60002,261.60002l0,-11.2l-67.2,0l0,-44.8l-56,0l0,11.2l44.8,0l0,44.8l78.40001,0zm-78.40001,-123.20001l11.2,0l0,33.6l-11.2,0l0,-33.6z" fill="currentColor"></path>
+      <path id="svg_11" classname="ci-primary" d="m188.40001,194.40001l78.40001,0l0,-56l-11.2,0l0,44.8l-67.2,0l0,11.2zm89.60001,-11.2l33.6,0l0,11.2l-33.6,0l0,-11.2zm0,44.8l11.2,0l0,11.2l-11.2,0l0,-11.2zm-22.4,0l11.2,0l0,11.2l-11.2,0l0,-11.2z" fill="currentColor"></path>
+    </g>
+  </g>
+</svg>
