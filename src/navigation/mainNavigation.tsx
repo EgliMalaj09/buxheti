@@ -44,7 +44,7 @@ export const HomeNavigation = memo(() => {
     return (
         <TouchableWithoutFeedback onPress={() => showExtraButtons && animateExtraButtons()}>
             <View style={{ flex: 1 }}>
-                <Tab.Navigator screenOptions={{ headerShown: false, animation: 'fade' }}>
+                <Tab.Navigator initialRouteName={Screens.HOME} screenOptions={{ headerShown: false, animation: 'fade' }}>
                     <Tab.Screen
                         name={Screens.HOME}
                         options={{ tabBarLabel: t('home') }}

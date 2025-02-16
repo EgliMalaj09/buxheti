@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { FontSize, FontWeight,  useThemedStyle } from '@/theme';
+import { FontSize, FontWeight, useThemedStyle } from '@/theme';
 import { omit } from 'lodash';
 import React from 'react';
 import { StyleProp, Text, TextProps, TextStyle } from 'react-native';
@@ -39,10 +39,18 @@ _AppText.Title = ({ children, ...props }: AppTextProps) => (
   </BaseText>
 );
 
+_AppText.PageTitle = ({ children, ...props }: AppTextProps) => (
+  <BaseText size={FontSize.LARGE} weight={FontWeight.MEDIUM} {...props}>
+    {children}
+  </BaseText>
+);
+
+
 
 export const AppText: {
   Base: typeof AppTextType;
   Title: typeof AppTextType;
+  PageTitle: typeof AppTextType;
   weight: typeof FontWeight;
   size: typeof FontSize;
 } = _AppText;
