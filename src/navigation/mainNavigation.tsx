@@ -1,4 +1,3 @@
-import { AppText } from '@/components/core/AppText';
 import { Screens } from '@/constants/screens';
 import { useLocale } from '@/locales/LanguageContext';
 import { HomeScreen } from '@/screens/home';
@@ -7,7 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import React, { useState, useRef, memo } from 'react';
 import { View, Animated, TouchableWithoutFeedback } from 'react-native';
 import { EventArg } from '@react-navigation/native';
-import { QrButtonComponent } from '@/components/core/QrButtonIcon';
+import { AppText, QrButtonComponent } from '@/components/core';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();

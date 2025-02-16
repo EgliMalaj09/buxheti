@@ -4,10 +4,10 @@ import { useThemedStyle } from '@/theme';
 import { useNavigation } from '@react-navigation/native';
 import React, { useCallback } from 'react';
 import { StyleProp, TouchableOpacity, View, ViewStyle } from 'react-native';
-import { AppText } from '../AppText';
 import { isNavigationAvailable, resetScreens } from '@/utils/helper';
 import { ChevronLeft } from '@/assets/icons';
 import { createStyles, HeaderStylesProps } from './styles';
+import { AppText } from '../AppText';
 
 export interface HeaderProps extends HeaderStylesProps {
     children?: React.ReactNode;

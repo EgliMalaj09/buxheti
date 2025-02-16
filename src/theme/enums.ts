@@ -22,3 +22,12 @@ export enum FontWeight {
 }
 
 export type FontWeightAllowed = FontWeight | valueof<FontWeight>;
+
+export enum ComponentSize {
+    SMALL = 'small',
+    MEDIUM = 'medium',
+    LARGE = 'large',
+    XLARGE = 'xlarge',
+}
+
+export type ComponentSizeAllowed = ComponentSize | valueof<ComponentSize>;

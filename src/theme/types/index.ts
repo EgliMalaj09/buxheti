@@ -4,3 +4,4 @@ export * from './spacingTheme';
 export * from './theme';
 export * from './fontWeightTheme';
 export * from './fontTheme';
+export * from './inputTheme';
